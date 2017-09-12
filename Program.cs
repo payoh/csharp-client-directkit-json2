@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace com.lemonway.tutorial
+namespace com.payoh.tutorial
 {
 	public class Program
 	{
 		/*
 		This example call the GetWalletDetails service to display the wallet information
-		http://documentation.lemonway.fr/api-en/directkit/manage-wallets/getwalletdetails-getting-detailed-wallet-data
+		https://payoh.me/documentazione/apin/directkit.wallets.get-details
 		*/
 		public static void Example001() 
 		{

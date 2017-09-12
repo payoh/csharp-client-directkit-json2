@@ -5,10 +5,10 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace com.lemonway.tutorial
+namespace com.payoh.tutorial
 {
 	/*
-	Helper to call LemonWay API.
+	Helper to call Payoh API.
 	*/
 	public static class LwService
 	{
@@ -20,7 +20,7 @@ namespace com.lemonway.tutorial
 		private static readonly string DIRECTKIT_URL = "https://sandbox-api.lemonway.fr/mb/demo/dev/directkitjson2/Service.asmx";
 
 		/*
-		The login and password is configurable from the Lemonway backoffice (see your onboarding e-mail)
+		The login and password is configurable from the Payoh backoffice (see your onboarding e-mail)
 		*/
 		private static readonly string LOGIN = "society";
 		private static readonly string PASSWORD = "123456";
